@@ -30,7 +30,7 @@
                     <ul class="menu">
                         {{--                        <li class="active"><a href="index.html">Home</a></li>--}}
                         <li><a href="{{ route('site.about') }}">@lang('site.about')</a></li>
-                        <li><a href="{{ route('site.project') }}">@lang('site.project')</a></li>
+                        <li><a href="{{ route('site.project') }}">@lang('site.projects')</a></li>
                         <li><a href="{{ route('site.services') }}">@lang('site.services')</a></li>
                     </ul>
                     <a href="{{ route('site.contact') }}" class="theme-btn">@lang('site.contact')</a>
@@ -58,11 +58,11 @@
                 <ul class="footer-menu">
                     <li><a href="{{ route('site.index') }}">@lang('site.index')</a></li>
                     <li><a href="{{ route('site.about') }}">@lang('site.about')</a></li>
-                    <li><a href="{{ route('site.project') }}">@lang('site.project')</a></li>
+                    <li><a href="{{ route('site.project') }}">@lang('site.projects')</a></li>
                     <li><a href="{{ route('site.contact') }}">@lang('site.contact')</a></li>
                 </ul>
                 <p class="copyright">
-                    &copy; {{--@lang('site.copyright')--}}All rights reserved by <span>Anvar Asgarov</span>
+                    &copy; @lang('site.copyright') <span>Anvar Asgarov</span>
                 </p>
             </div>
         </div>
